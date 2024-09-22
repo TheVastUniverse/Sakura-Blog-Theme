@@ -21,5 +21,12 @@
     "hexo-server": "^0.3.1",
     "hexo-tag-bili": "^1.0.0",
     "hexo-tag-fancybox_img": "^1.0.1"
+  },
+  "scripts": {
+      "build": "hexo generate",
+      "clean": "hexo clean",
+      "deploy": "hexo deploy",
+      "server": "hexo server",
+      "netlify": "npm run clean && npm run build"
   }
 }
